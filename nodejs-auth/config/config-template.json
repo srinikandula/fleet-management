@@ -1,0 +1,22 @@
+{
+  "NODE_ENV": "development",
+  "frontend": "angular",
+  "jwt": {
+    "secret": "mysecret",
+    "options": {
+      "expiresIn": 86400
+    }
+  },
+  "mysql": {
+    "DB_HOST": "localhost",
+    "DB_USER": "root",
+    "DB_PASS": "password",
+    "DB_PORT": "3306",
+    "DB_NAME": "logione"
+  },
+  "HOST": "localhost",
+  "PORT": "3040",
+  "URL_METHOD": "http",
+  "URL": "localhost"
+}
+
